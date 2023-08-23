@@ -2,6 +2,9 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
     "messageformat",
-    "nextui"
+    "nextjs",
+    "nextui",
+    "shahriaz",
+    "tanstack"
   ]
 }
