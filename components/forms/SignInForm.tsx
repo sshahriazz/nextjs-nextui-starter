@@ -30,7 +30,14 @@ const SignInForm = () => {
       await signIn("credentials", {
         email: values.email,
         password: values.password,
-      });
+        redirect: false,
+      })
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     },
   });
   return (
